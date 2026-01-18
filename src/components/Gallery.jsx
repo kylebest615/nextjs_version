@@ -13,7 +13,8 @@ export default function Gallery() {
         { file: "Living Room_1_R1.jpg", title: "Living Room", type: "Interior" },
         { file: "07.jpg", title: "Exterior View", type: "Exterior" },
         { file: "living L1.jpg", title: "Living Design", type: "Interior" },
-        { file: "Upper_Living.jpg", title: "Upper Living", type: "Interior" }
+        { file: "Upper_Living.jpg", title: "Upper Living", type: "Interior" },
+        { file: "kitchen 2.png", title: "Kitchen", type: "Interior" }
     ];
 
     const scrollLeft = () => {
