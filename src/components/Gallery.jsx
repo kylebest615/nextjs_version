@@ -48,6 +48,12 @@ export default function Gallery() {
             title: "Upper Living",
             type: "Interior",
             alt: "Upper floor living space 3D render with modern interior design Thrissur Kerala"
+        },
+        {
+            file: "kitchen 2.png",
+            title: "Modern Kitchen",
+            type: "Interior",
+            alt: "Modern Kitchen space 3D render with modern interior design Thrissur Kerala"
         }
     ];
 
@@ -111,4 +117,5 @@ export default function Gallery() {
         </section>
     );
 }
+
 
