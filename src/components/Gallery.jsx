@@ -7,14 +7,48 @@ export default function Gallery() {
     const carouselRef = useRef(null);
 
     const projects = [
-        { file: "L1.jpg", title: "Kitchen Detail", type: "Interior" },
-        { file: "Nimal Front View.jpg", title: "Modern Villa", type: "Exterior" },
-        { file: "wash area_L.jpg", title: "Wash Area", type: "Interior" },
-        { file: "Living Room_1_R1.jpg", title: "Living Room", type: "Interior" },
-        { file: "07.jpg", title: "Exterior View", type: "Exterior" },
-        { file: "living L1.jpg", title: "Living Design", type: "Interior" },
-        { file: "Upper_Living.jpg", title: "Upper Living", type: "Interior" },
-        { file: "kitchen 2.png", title: "Kitchen", type: "Interior" }
+        {
+            file: "L1.jpg",
+            title: "Kitchen Detail",
+            type: "Interior",
+            alt: "Modern modular kitchen interior design with premium finishes by V4 Building Solutions Thrissur Kerala"
+        },
+        {
+            file: "Nimal Front View.jpg",
+            title: "Modern Villa",
+            type: "Exterior",
+            alt: "3D exterior visualization of contemporary two-story villa in Kerala by V4 Building Solutions"
+        },
+        {
+            file: "wash area_L.jpg",
+            title: "Wash Area",
+            type: "Interior",
+            alt: "Elegant wash area and utility room design with modern plumbing solutions Kunnamkulam"
+        },
+        {
+            file: "Living Room_1_R1.jpg",
+            title: "Living Room",
+            type: "Interior",
+            alt: "Luxurious living room 3D interior visualization with contemporary design Kerala"
+        },
+        {
+            file: "07.jpg",
+            title: "Exterior View",
+            type: "Exterior",
+            alt: "Stunning 3D exterior architectural visualization of residential project Thrissur"
+        },
+        {
+            file: "living L1.jpg",
+            title: "Living Design",
+            type: "Interior",
+            alt: "Spacious living area interior design with premium lighting and finishes Kerala"
+        },
+        {
+            file: "Upper_Living.jpg",
+            title: "Upper Living",
+            type: "Interior",
+            alt: "Upper floor living space 3D render with modern interior design Thrissur Kerala"
+        }
     ];
 
     const scrollLeft = () => {
@@ -60,7 +94,7 @@ export default function Gallery() {
                             >
                                 <Image
                                     src={`/images/${project.file}`}
-                                    alt={project.title}
+                                    alt={project.alt}
                                     fill
                                     className="object-cover transition duration-700 group-hover/card:scale-110"
                                 />
